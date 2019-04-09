@@ -12,9 +12,21 @@ page-chat {
         font-weight:bold;
         font-size: 80%;
     }
+    .message:after{
+        content: '';
+        display: block;
+        clear:both;
+    }
 
     .message{
         font-size:120%;
+    }
+    .messageLeft{
+        float: left;
+    }
+
+    .messageRight{
+        float: right;
     }
 
     .elem button {
